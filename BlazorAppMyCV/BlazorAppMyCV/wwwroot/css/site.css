@@ -66,3 +66,11 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.img-hover-zoom {
+    transition: transform 0.3s ease;
+}
+
+    .img-hover-zoom:hover {
+        transform: scale(1.05);
+    }

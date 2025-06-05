@@ -1,40 +1,54 @@
 ﻿@page "/about"
 
 
-<section id="about" class="about section">
-
-    <!-- Section Title -->
+<section id="about" class="about section table-responsive-md u-datatable shadow-primary-lg p-3 mb-5 rounded m-5">
+       
     <div class="container section-title" data-aos="fade-up">
         <h2>About:</h2>
         <p>I am a Full Stack .NET Developer with 4+ years of hands-on experience in designing, developing, and deploying scalable web applications using technologies like ASP.NET Core, Blazor, Azure, and modern JavaScript frameworks. I focus on clean architecture, automation, and delivering real business value.</p>
-    </div><!-- End Section Title -->
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-                <img src="assets/img/portfolio2.jpeg" class="img-fluid" alt="Vasyl Stolyarchuk">               
-            </div>
-            <div class="col-lg-8 content">
-                <h2>Full Stack .NET Developer</h2>
-                <p class="fst-italic py-3">
-                    Skilled in building web applications end-to-end using C#, .NET, Blazor, Entity Framework, and Azure. Strong focus on performance, test automation, and DevOps pipelines.
-                </p>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>Vasyl.Stoliarchuk@outlook.com</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+380684087164</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lviv, Ukraine</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of IT & Telecom</span></li>                           
-                        </ul>
-                    </div>                   
+  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4 align-items-center">
+                <div class="col-lg-4">
+                    <img src="assets/img/portfolio2.jpeg" class="img-fluid rounded-3 shadow-sm" alt="Vasyl Stolyarchuk">
                 </div>
-                <p class="py-3">
-                    I am always open to challenging opportunities where I can apply my technical knowledge, build high-quality solutions, and continuously learn new tools and technologies. I care about writing clean, maintainable code and contributing to effective development workflows.
-                </p>
+                <div class="col-lg-8 content">
+                    <h2 class="mb-3">Full Stack .NET Developer</h2>
+                    <p class="fst-italic mb-4">
+                        Building robust, scalable web applications using C#, .NET, Blazor, EF Core, and Azure. Passionate about performance, test automation, and clean development workflows.
+                    </p>
+
+                    <!-- Personal Info Section -->
+                    <div class="mb-4">
+                        <h3 class="h5 mb-3">Contact & Education</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-envelope me-2"></i><strong>Email:</strong> Vasyl.Stoliarchuk@outlook.com</li>
+                            <li><i class="bi bi-telephone me-2"></i><strong>Phone:</strong> +380684087164</li>
+                            <li><i class="bi bi-geo-alt me-2"></i><strong>City:</strong> Lviv, Ukraine</li>
+                            <li><i class="bi bi-mortarboard me-2"></i><strong>Degree:</strong> Bachelor in IT & Telecom</li>
+                        </ul>
+                    </div>
+
+                    <!-- Work Experience Section -->
+                    <div>
+                        <h3 class="h5 mb-3">Work Experience</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-briefcase me-2"></i><strong>Netfully:</strong> Full Stack Developer <small class="text-muted">(Aug 2021 – Oct 2023)</small></li>
+                            <li><i class="bi bi-briefcase me-2"></i><strong>XSUNT Corporation:</strong> .NET Developer <small class="text-muted">(Jun 2021 – Aug 2021)</small></li>
+                            <li><i class="bi bi-briefcase me-2"></i><strong>SoftServe Business Systems:</strong> .NET Software Engineer <small class="text-muted">(Jan 2021 – Jun 2021)</small></li>
+                            <li><i class="bi bi-briefcase me-2"></i><strong>RemSoft.Dev:</strong> .NET Developer <small class="text-muted">(Aug 2019 – Dec 2020)</small></li>
+                        </ul>
+                    </div>
+
+                    <p class="mt-4">
+                        I enjoy turning complex challenges into elegant code. Always eager to contribute to meaningful projects, collaborate in agile teams, and stay updated with the latest in .NET ecosystem and cloud technologies.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+
+
 </section>
 
 @code {

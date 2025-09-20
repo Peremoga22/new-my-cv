@@ -74,3 +74,8 @@ a, .btn-link {
     .img-hover-zoom:hover {
         transform: scale(1.05);
     }
+
+.section-title-main-project {
+    padding-bottom: 10px;
+    position: relative;
+}

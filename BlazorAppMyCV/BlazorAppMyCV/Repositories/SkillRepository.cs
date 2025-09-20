@@ -69,6 +69,30 @@ namespace BlazorAppMyCV.Repositories
             Description = "Basic knowledge of Microsoft Azure services including App Service, SQL Database, DevOps, and Portal for cloud deployment and management of .NET apps.",
             IconSrc = "./png/azure.png",
             IconAlt = "Microsoft Azure Icon"
+        },
+        new SkillsModel
+        {
+            Id = 9,
+            Title = "Angular 2 +",
+            Description = "Basic knowledge of the framework, experience in combining the framework with Web API .NET.",
+            IconSrc = "./png/angular.png",
+            IconAlt = "Angular Icon"
+        },
+        new SkillsModel
+        {
+            Id = 10,
+            Title = "React",
+            Description = "Basic knowledge of the framework, experience in combining the framework with Web API .NET.",
+            IconSrc = "./png/react.png",
+            IconAlt = "React Icon"
+        },
+        new SkillsModel
+        {
+            Id = 10,
+            Title = "Docker",
+            Description = "Basic knowledge of creating Docker images and configuring containers, including deploying projects with a persistent database.",
+            IconSrc = "./png/docker.png",
+            IconAlt = "Docker Icon"
         }
         };
     }
